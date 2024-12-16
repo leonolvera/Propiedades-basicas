@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos tarjetas */
+
+.card{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    width: 35rem;
+    padding: 2rem 2rem;
+    margin: 2.5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.card-image-container{
+    width: 100%;
+}
+
+.card-image-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-info{
+    margin: 1rem 0;
+}
+
+.card-info h1{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.card-info p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.card button{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.card button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(47, 239, 127);
+}
+
+/* Estilos del elemento [elemento] */
